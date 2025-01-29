@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+    
 }
 .main{
     width:100%;
@@ -9,14 +10,15 @@
     background-position:center;
     background-size:auto;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 115vh;
+    background-color: blueviolet;
 }
 
 .navbar{
     width: 1200px;
     height: 75px;
     margin:auto;
-    position:static !important;
+    position:relative;
 }
 
 .icon{
@@ -121,6 +123,7 @@ ul li a:hover{
     margin: auto;
     color:aliceblue;
     position: relative;
+    margin-top: -180px;
 
 }
 .about-title h1{
@@ -130,6 +133,7 @@ ul li a:hover{
     margin-top:15%;
     letter-spacing: 4px;
     text-align: center;
+    padding-top: 50;
 }
 .about-title h2{
     padding-left: 20px;
@@ -139,6 +143,7 @@ ul li a:hover{
     line-height: 40px;
     font-size: 30px;
     text-align: justify;
+    padding-top: 100px;
 }
 .INTERESTS{
     width:100%;
@@ -151,13 +156,14 @@ ul li a:hover{
     width: 1200px;
     height: auto;
     margin: auto;
-    color:aquamarine;
+    color:white;
     position: relative;
+    margin-top: -120px;
 
 }
 .inte h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 150px;
+    font-size: 100px;
     padding-left: 10px;
     margin-top:9%;
     letter-spacing: 4px;
@@ -183,6 +189,7 @@ ul li a:hover{
     margin: auto;
     color:aquamarine;
     position: relative;
+    margin-top:-120px;
 
 }
 .even h1{
