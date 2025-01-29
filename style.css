@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.main{
+    width:100%;
+    background:linear-gradient(to top,rgba(255,0,0,0),rgba(255,0,0,0)),url(home.png.jpg);
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+    position:static !important;
+}
+
+.icon{
+    width: 200px;
+    float:left;
+    height: 70px;
+}
+
+.logo{
+    color:aquamarine;
+    font-size:35px;
+    font-family:Arial, Helvetica, sans-serif;
+    float:left;
+    padding-top:10px;
+}
+.menu{
+    width: 500px;
+    float:left;
+    height:70px;
+}
+
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration:none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-in-out;
+}
+ul li a:hover{
+    color:chocolate;
+
+}
+.Register{
+    width: 300px;
+    float: right;
+    margin-left: 200px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background:chocolate;
+    border:2px solid chocolate;
+    margin-top: 10px;
+    color:aliceblue;
+    font-size: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition:0.4s ease-in-out;
+}
+.btn:focus{
+    outline:none;
+}
+.btn:hover{
+    color: black;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:rgb(249, 244, 248);
+    position:absolute;
+    padding-left: 100px;
+}
+.content h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150px;
+    padding-left: 10px;
+    margin-top:9%;
+    letter-spacing: 1px;
+}
+.content .cont{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    font-size: 50px;
+}
+.about{
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(About.png.png);
+    background-position:center;
+    background-size:cover;
+    height:109vh
+}
+.about-title{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:aliceblue;
+    position: relative;
+
+}
+.about-title h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    padding-left: 10px;
+    margin-top:15%;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.about-title h2{
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: justify;
+}
+.INTERESTS{
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Interests.png.png);
+    background-position:center;
+    background-size:cover;
+    height:109vh
+}
+.inte{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:aquamarine;
+    position: relative;
+
+}
+.inte h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    padding-left: 10px;
+    margin-top:9%;
+    letter-spacing: 4px;
+}
+.inte h2{
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    font-size: 50px;
+}
+.events{
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Events.png.png);
+    background-position:center;
+    background-size:cover;
+    height:109vh
+}
+.even{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:aquamarine;
+    position: relative;
+
+}
+.even h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    padding-left: 10px;
+    margin-top:9%;
+    letter-spacing: 4px;
+}
+.even h2{
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    font-size: 50px;
+}
+
+footer{
+    background-color: #111;
+    margin-bottom: 0;
+}
+.page-footer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
