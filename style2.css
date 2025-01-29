@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+.main{
+    width:100%;
+    background:linear-gradient(to top,rgba(255,0,0,0),rgba(255,0,0,0)),url(bbg.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 115vh;
+    background-color: blueviolet;
+    position:fixed;
+}
+button{
+    background: white;
+    height: 25%;
+    width: 50%;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
+    color: black;
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:90px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 300px;
+    
+}
+button:focus{
+    outline:none;
+}
+button:hover{
+    color: black;
+
+}
